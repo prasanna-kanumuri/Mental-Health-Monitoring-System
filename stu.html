@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .question-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            margin-top: 50px;
+        }
+
+        .question {
+            margin-bottom: 15px;
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .options input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .options input[type="text"] {
+            width: 100%;
+            padding: 5px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        h1 {
+            background-color: #a6c5e6;
+            width: auto;
+            font-size: 50px;
+            margin-top: 0px;
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .content {
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .h1 {
+            background-color: white;
+            font-size: 60px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-container">
+        <div class="content">
+            <h1 class="h1">Welcome to the Student Survey!</h1>
+            <p>Education is the most powerful weapon that you can use to change the world. — Nelson Mandela</p>
+            <p>Your insights and experiences matter. Please take a moment to answer the following questions honestly.</p>
+        </div>
+        <form method="post" action="/predict">
+        <div class="question" id="question1">
+            <h2>1. Department:</h2>
+            <div class="options">
+                <input type="text" name="department" placeholder="Write your department here">
+            </div>
+        </div>
+
+        <div class="question" id="question2">
+            <h2>2. Gender:</h2>
+            <div class="options">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="non-binary"> Non-binary</label>
+                <label><input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say</label>
+            </div>
+        </div>
+
+        <div class="question" id="question3">
+            <h2>3. Are you doing your undergraduate or postgraduate?</h2>
+            <div class="options">
+                <label><input type="radio" name="education" value="undergraduate"> Undergraduate</label>
+                <label><input type="radio" name="education" value="postgraduate"> Postgraduate</label>
+            </div>
+        </div>
+
+        <div class="question" id="question4">
+            <h2>4. Sleep and Daily Habits:</h2>
+            <h3>Breakfast:</h3>
+            <div class="options">
+                <label><input type="radio" name="breakfast-habit" value="regularly"> Regularly</label>
+                <label><input type="radio" name="breakfast-habit" value="occasionally"> Occasionally</label>
+                <label><input type="radio" name="breakfast-habit" value="rarely"> Rarely</label>
+            </div>
+            <h3>Sleep time interval:</h3>
+            <input type="text" name="sleep-time-interval" placeholder="e.g., 7-8 hours">
+            <h3>Mobile usage 1 hr before sleep:</h3>
+            <div class="options">
+                <label><input type="radio" name="mobile-usage-before-sleep" value="yes-often"> Yes, often</label>
+                <label><input type="radio" name="mobile-usage-before-sleep" value="yes-occasionally"> Yes, occasionally</label>
+                <label><input type="radio" name="mobile-usage-before-sleep" value="no"> No</label>
+            </div>
+        </div>
+
+        <div class="question" id="question5">
+            <h2>5. Concentration and Academic Performance:</h2>
+            <h3>Concentration score:</h3>
+            <div class="options">
+                <label><input type="radio" name="concentration-score" value="excellent"> Excellent</label>
+                <label><input type="radio" name="concentration-score" value="good"> Good</label>
+                <label><input type="radio" name="concentration-score" value="fair"> Fair</label>
+                <label><input type="radio" name="concentration-score" value="poor"> Poor</label>
+            </div>
+            <h3>Concentration level in class:</h3>
+            <div class="options">
+                <label><input type="radio" name="concentration-level" value="very-high"> Very high</label>
+                <label><input type="radio" name="concentration-level" value="high"> High</label>
+                <label><input type="radio" name="concentration-level" value="moderate"> Moderate</label>
+                <label><input type="radio" name="concentration-level" value="low"> Low</label>
+            </div>
+            <h3>Mobile usage per day (hours):</h3>
+            <input type="text" name="mobile-usage-hours" placeholder="e.g., 2 hours">
+            <h3>Most used app:</h3>
+            <input type="text" name="most-used-app" placeholder="e.g., Facebook">
+        </div>
+
+        <div class="question" id="question6">
+            <h2>6. Physical and Mental Well-being:</h2>
+            <h3>Tiredness:</h3>
+            <div class="options">
+                <label><input type="radio" name="tiredness" value="morning"> In the morning</label>
+                <label><input type="radio" name="tiredness" value="afternoon"> In the afternoon</label>
+                <label><input type="radio" name="tiredness" value="evening"> In the evening</label>
+                <label><input type="radio" name="tiredness" value="all-day"> All day</label>
+            </div>
+            <h3>Major problem:</h3>
+            <input type="text" name="major-problem" placeholder="e.g., stress">
+            <h3>Anxiety problem:</h3>
+            <div class="options">
+                <label><input type="radio" name="anxiety-problem" value="yes"> Yes</label>
+                <label><input type="radio" name="anxiety-problem" value="no"> No</label>
+            </div>
+        </div>
+
+        <div class="question" id="question7">
+            <h2>7. Sleep Patterns:</h2>
+            <h3>Adequate sleep:</h3>
+            <div class="options">
+                <label><input type="radio" name="adequate-sleep" value="yes"> Yes</label>
+                <label><input type="radio" name="adequate-sleep" value="no"> No</label>
+            </div>
+            <h3>Reasons for not sleeping on time:</h3>
+            <input type="text" name="reasons-for-late-sleep" placeholder="e.g., homework">
+        </div>
+
+        <div class="question" id="question8">
+            <h2>8. Family and Personal Factors:</h2>
+            <h3>Single child:</h3>
+            <div class="options">
+                <label><input type="radio" name="single-child" value="yes"> Yes</label>
+                <label><input type="radio" name="single-child" value="no"> No</label>
+            </div>
+            <h3>Single parent:</h3>
+            <div class="options">
+                <label><input type="radio" name="single-parent" value="yes"> Yes</label>
+                <label><input type="radio" name="single-parent" value="no"> No</label>
+            </div>
+            <h3>Self-satisfaction:</h3>
+            <div class "options">
+                <label><input type="radio" name="self-satisfaction" value="very-satisfied"> Very satisfied</label>
+                <label><input type="radio" name="self-satisfaction" value="satisfied"> Satisfied</label>
+                <label><input type="radio" name="self-satisfaction" value="neutral"> Neutral</label>
+                <label><input type="radio" name="self-satisfaction" value="dissatisfied"> Dissatisfied</label>
+                <label><input type="radio" name="self-satisfaction" value="very-dissatisfied"> Very dissatisfied</label>
+            </div>
+        </div>
+
+        <div class="question" id="question9">
+            <h2>9. Types of Anxiety Problems:</h2>
+            <h3>[Allow students to write or choose from a list of common anxiety problems]</h3>
+            <input type="text" name="anxiety-problems" placeholder="e.g., social anxiety, test anxiety">
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" id="prevBtn" onclick="prevQuestion()">Previous</button>
+            <button class="btn" id="nextBtn" onclick="nextQuestion()">Next</button>
+        </div>
+        </div>
+    </form>
+        </body>
+    </div>
+
+    
+</body>
+</html>

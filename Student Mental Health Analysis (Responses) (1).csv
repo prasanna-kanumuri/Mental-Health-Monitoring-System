@@ -1,0 +1,101 @@
+Timestamp,Department,Gender,Are you doing your undergraduate or postgraduate?,status of students,Breakfast,Sleep time interval,usage of mobile 1 hr before sleep,Reasons for not sleeping on time ,Concentration score,Concentration level in class,mobile usage per day,most used app,Tiredness,Major problem,Anxiety problem,Adequate sleep ,Types of  Anxiety problems ,Single child,Single parent,Self satisfaction
+3/20/2023 15:44:28,Data Science,Female,Postgraduate,Day Scholar,No,11 -12 pm,Yes,College works,3,10 mins,4,Social Media,No,College stress,Maybe,No,Nothing ,Yes,No,No
+3/20/2023 15:45:54,Data Science,Female,Undergraduate,Day Scholar,Yes,12 - 1 am,Yes,Mobile phone,1,30 mins,2,Social Media,Yes,"Studies, College stress",Maybe,Yes,Muscle tension,Yes,No,No
+3/20/2023 15:46:05,Data Science,Female,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,Having an habit of studying at night.,4,30 mins,6,Educational purpose,Sometimes tired,"Family, Money",Yes,Yes,Difficulty in breathing,Yes,No,Yes
+3/20/2023 15:49:14,Data Science,Female,Postgraduate,Hostiler,Yes,8 - 9 pm,No,I Am sleeping on time,4,45 mins,1,Educational purpose,No,College stress,No,No,No,No,No,Yes
+3/20/2023 15:49:25,Data Science,Female,Postgraduate,Hostiler,Yes,2 - 3 am,Yes,Mobile,3,15 mins,7,Social Media,Yes,Studies,Yes,No,Shivering,No,No,No
+3/20/2023 15:50:40,Data Science,Male,Postgraduate,Day Scholar,No,10 - 11 pm,Yes,Overthinking,3,15 mins,3,Educational purpose,Sometimes tired,"Family, Relationship, Studies, College stress, Money",Maybe,No,"Feeling panic, fear and uneasiness",No,No,Yes
+3/20/2023 15:52:16,Computer Science,Male,Postgraduate,Hostiler,Yes,10 - 11 pm,Yes,1.Mobile2.Mobile3.Mobile,3,15 mins,7,Social Media,Yes,"Studies, College stress, Money",Maybe,No,Headache,No,No,No
+3/20/2023 15:53:16,Computer Science,Male,Postgraduate,Day Scholar,No,1 - 2 am,Yes,Using mobile ,2,5 mins,10,Social Media,Sometimes tired,Money,Maybe,No,Chest pain,No,No,No
+3/20/2023 16:09:28,Information technology,Female,Undergraduate,Day Scholar,No,11 -12 pm,Yes,Building my career skills and entertainment . ,3,15 mins,5,Social Media,Yes,Money,Yes,Yes,Mind stress,No,No,No
+3/20/2023 16:10:23,Data Science,Male,Postgraduate,Hostiler,No,10 - 11 pm,No,Doing some works ,4,30 mins,6,All those apps,Sometimes tired,"Family, Studies, College stress, Money",Yes,No,Nightmares,Yes,No,No
+3/20/2023 16:13:12,Data Science,Male,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,Playing with kids,3,5 mins,5,Social Media,Yes,"Family, Studies, College stress, Money",Yes,Yes,Headache,Yes,Yes,Yes
+3/20/2023 16:13:49,others,Female,Postgraduate,Day Scholar,No,9 - 10 pm,No,Depression ,3,15 mins,5,Social Media,Sometimes tired,"Family, Relationship, College stress, Money",Yes,No,Wheezing ,No,Yes,No
+3/20/2023 16:14:48,Data Science,Female,Postgraduate,Hostiler,Yes,10 - 11 pm,Yes,Disturbance in Hostel ,4,30 mins,6,Educational purpose,Yes,Thought about future.,Maybe,No,Headache,No,No,No
+3/20/2023 16:17:05,Data Science,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,Yes,Studying purpose ,4,15 mins,3,Social Media,Sometimes tired,Studies,No,No,Headache,No,No,Yes
+3/20/2023 16:19:08,Data Science,Male,Postgraduate,Hostiler,Yes,10 - 11 pm,No,Actually I am sleeping on time,4,30 mins,3,Social Media,Sometimes tired,College stress,No,Yes,Headache,No,No,Yes
+3/20/2023 16:20:31,Data Science,Male,Postgraduate,Hostiler,No,11 -12 pm,Yes,work assigned by the department.,3,10 mins,2,Gaming apps,Yes,"College stress, Money",Maybe,No,no comments,No,No,No
+3/20/2023 16:20:37,Data Science,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Some extented works,4,15 mins,3,Educational purpose,Yes,Money,Yes,Yes,Headache,Yes,No,Yes
+3/20/2023 16:21:42,Data Science,Female,Postgraduate,Hostiler,Yes,11 -12 pm,Yes,Thinking about something ,4,10 mins,3,Gaming apps,Sometimes tired,"Studies, College stress",No,No,Headache,No,No,Yes
+3/20/2023 16:21:56,Data Science,Male,Postgraduate,Hostiler,No,10 - 11 pm,Yes,Addicted to mobile ,3,15 mins,5,Gaming apps,Sometimes tired,"College stress, Money",Maybe,No,Headache,Yes,No,Yes
+3/20/2023 16:22:20,Data Science,Female,Postgraduate,Hostiler,No,12 - 1 am,Yes,"Assignment, project",3,5 mins,4,Social Media,Sometimes tired,College stress,Maybe,No,Headache,No,No,Yes
+3/20/2023 16:23:28,Data Science,Female,Postgraduate,Hostiler,Yes,10 - 11 pm,Yes,Disturbance in room ,3,15 mins,3,Educational purpose,Sometimes tired,College stress,No,Yes,Headache,No,No,Yes
+3/20/2023 16:23:30,Data Science,Male,Postgraduate,Day Scholar,No,11 -12 pm,Yes,therila,3,5 mins,4,Social Media,Sometimes tired,Money,No,No,null,No,No,No
+3/20/2023 16:24:56,Data Science,Male,Postgraduate,Hostiler,Yes,10 - 11 pm,No,Some academic and online study works,5,15 mins,5,Educational purpose,No,"Family, Relationship, Studies, College stress, Money",Yes,No,Chest pain,No,No,Yes
+3/20/2023 16:26:33,Data Science,Male,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,Nothing ,5,45 mins,5,Social Media,Sometimes tired,College stress,No,No,Headache,Yes,No,Yes
+3/20/2023 16:26:41,Data Science,Male,Postgraduate,Day Scholar,Yes,12 - 1 am,Yes,Idk,5,5 mins,12,Gaming apps,Yes,Idk,No,No,Nill,No,No,Yes
+3/20/2023 16:35:30,Business Administration,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Mobile face time ,4,15 mins,6,Social Media,Sometimes tired,"College stress, ",Maybe,No,No anxiety,No,Yes,Yes
+3/20/2023 16:35:38,Information technology,Male,Undergraduate,Day Scholar,Yes,10 - 11 pm,Yes,Usage of mobile,3,30 mins,8,Social Media,Sometimes tired,College stress,No,No,Headache,No,Yes,Yes
+3/20/2023 16:37:43,Data Science,Male,Postgraduate,Hostiler,No,12 - 1 am,Yes,Using mobile,5,5 mins,6,Social Media,Sometimes tired,Money,Maybe,Yes,Sweating,Yes,No,Yes
+3/20/2023 16:38:08,Data Science,Male,Postgraduate,Hostiler,No,others,Yes,Work pressure ,5,15 mins,10,Social Media,Sometimes tired,College stress,Maybe,No,Headache,No,No,Yes
+3/20/2023 16:39:03,Data Science,Male,Postgraduate,Day Scholar,No,11 -12 pm,Yes,nothing,4,30 mins,5,Social Media,Sometimes tired,College stress,No,No,null,No,No,Yes
+3/20/2023 16:39:08,Data Science,Male,Postgraduate,Day Scholar,Yes,1 - 2 am,Yes,Depression ,1,5 mins,2,Educational purpose,No,"Family, Money",No,No,No anxiety,No,No,Yes
+3/20/2023 16:41:09,Data Science,Male,Postgraduate,Hostiler,No,11 -12 pm,Yes,overthinking,4,30 mins,4,Social Media,Sometimes tired,"Relationship, Studies, College stress, Money, no girl friends",Yes,No,Flashbacks of traumatic experiences,Yes,No,Yes
+3/20/2023 16:42:26,Mathematics,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,Yes,Lots of Classwork ,4,45 mins,2,Educational purpose,Sometimes tired,College stress,No,Yes,No anxiety,No,No,Yes
+3/20/2023 17:14:01,Computer Science,Female,Undergraduate,Day Scholar,Yes,1 - 2 am,No,Night only i will rest,1,30 mins,1,Educational purpose,Sometimes tired,No problem,No,Yes,Cold or sweaty hands,No,No,Yes
+3/20/2023 17:15:10,Information technology,Male,Undergraduate,Hostiler,No,1 - 2 am,Yes,Using mobile phone,3,5 mins,10,Social Media,Yes,"Family, Relationship, Studies, College stress, Money",No,No,Shivering,No,No,No
+3/20/2023 17:27:42,Business Administration,Female,Postgraduate,Day Scholar,No,10 - 11 pm,Yes,Using mobile,4,30 mins,4,Social Media,Sometimes tired,College stress,Maybe,No,Headache,Yes,No,Yes
+3/20/2023 17:31:38,Information technology,Male,Undergraduate,Hostiler,Yes,others,Yes,Chat,5,30 mins,6,Social Media,Sometimes tired,Relationship,Yes,No,Muscle tension,No,No,No
+3/20/2023 18:05:34,Information technology,Male,Undergraduate,Hostiler,Yes,12 - 1 am,No,Memories or imagination distrub in my beginning of sleep ,3,5 mins,7,Social Media,Sometimes tired,"Family, Relationship, Studies, College stress, Money",Yes,No,Sweating,No,No,Yes
+3/20/2023 18:16:04,Information technology,Male,Undergraduate,Day Scholar,Yes,10 - 11 pm,Yes,Mobile,3,15 mins,4,Social Media,Yes,Relationship,No,Yes,Sweating,No,No,Yes
+3/20/2023 18:19:28,Mathematics,Female,Postgraduate,,Yes,10 - 11 pm,Yes,Work,3,30 mins,4,Social Media,No,College stress,No,Yes,No anxiety,No,No,Yes
+3/20/2023 18:25:37,Information technology,Male,Undergraduate,Day Scholar,Yes,others,Yes,Going to part time job,3,15 mins,10,Social Media,Sometimes tired,"Family, Relationship, Studies, College stress, Money",No,Yes,Cold or sweaty hands,No,No,Yes
+3/20/2023 18:47:43,English,Male,Postgraduate,Day Scholar,Yes,others,Yes,Tuition,3,30 mins,3,Reading Articles and fiction. ,Sometimes tired,Health issues of parents and need to support family financially. ,Maybe,Yes,Shivering,No,No,Yes
+3/20/2023 18:48:44,English,Female,Postgraduate,Day Scholar,Yes,others,Yes,I sleep on time ,4,30 mins,7,Printest ,Sometimes tired,Mental health ,Yes,Yes,Cold or sweaty hands,No,No,No
+3/20/2023 18:51:19,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,No,Iam sleeping on time ,3,30 mins,4,Handling  online classes through videoconferencing applications ,Sometimes tired,"Family, Studies, College stress",Yes,Yes,Headache,Yes,No,No
+3/20/2023 18:55:59,English,Female,Postgraduate,Day Scholar,No,11 -12 pm,Yes,Everyone in my house goes late to bed that's why ,4,30 mins,7, Both educational purpose and social media ,Sometimes tired,.,Yes,No,Headache,No,No,No
+3/20/2023 18:56:01,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,No,Around 10.30 regular time,4,45 mins,6,Social Media,Sometimes tired,"Studies, Money",No,No,Sweating,No,No,Yes
+3/20/2023 18:59:28,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,No,I sleep on time ....no issues ,3,45 mins,3,Social Media,Yes,Money,No,Yes,No anxiety,No,Yes,Yes
+3/20/2023 18:59:44,English,Female,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,"I m a mother of 1yr boy,I have a lot of work in home so I can't be able sleep on time",3,10 mins,2,Social Media,Sometimes tired,Money,Maybe,Yes,Sweating,No,No,Yes
+3/20/2023 19:01:02,Mathematics,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,No,Using mobile phone and thinking about future.,4,30 mins,2,Social Media,Sometimes tired,"College stress, Money",Maybe,Yes,Sweating,Yes,Yes,Yes
+3/20/2023 19:06:15,English,Female,Postgraduate,Day Scholar,No,10 - 11 pm,Yes,"Because,iam a house wife ,so I have to prepare everything like house hold things kitchen work ect, so I couldn't sleep at time",5,45 mins,5,Educational purpose,Sometimes tired,"Family, College stress, Money",Maybe,Yes,Sweating,No,Yes,Yes
+3/20/2023 19:07:19,Computer Science,Female,Postgraduate,Day Scholar,No,11 -12 pm,Yes,Noon sleep,4,30 mins,7,Social Media,Sometimes tired,"Family, Money",Yes,Yes,Difficulty in breathing,No,No,Yes
+3/20/2023 19:11:11,English,Female,Postgraduate,Day Scholar,No,11 -12 pm,Yes,Depression & Overthinking,3,30 mins,8,Social Media,Sometimes tired,Family,Yes,No,"Feeling panic, fear and uneasiness",No,No,No
+3/20/2023 19:13:36,English,Female,Postgraduate,Day Scholar,Yes,others,Yes,I don't know exact reason,4,45 mins,2,Social Media,Sometimes tired,Money,Yes,Yes,Stress ,No,No,No
+3/20/2023 19:24:37,others,Male,Undergraduate,Hostiler,Yes,2 - 3 am,Yes,Due to workload,3,15 mins,10,Educational purpose,Yes,"Studies, College stress, Money",Yes,No,Chest pain,No,Yes,No
+3/20/2023 19:38:20,Mathematics,Female,Undergraduate,Hostiler,Yes,11 -12 pm,Yes,---,3,15 mins,4,Gaming apps,Sometimes tired,"Family, Nothing ",Maybe,No,Cold or sweaty hands,No,No,Yes
+3/20/2023 20:13:52,Mathematics,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,Yes,Using social media ,4,15 mins,2,Social Media,Yes,Money,Yes,Yes,Nightmares,No,No,Yes
+3/20/2023 20:16:49,Information technology,Male,Undergraduate,Hostiler,No,3 - 4 am,Yes,Using of Mobile ,4,5 mins,10,Social Media,Sometimes tired,College stress,No,No,Chest pain,No,No,Yes
+3/20/2023 20:21:41,others,Male,Postgraduate,Day Scholar,No,2 - 3 am,Yes,Not coming ,2,5 mins,5,Social Media,Yes,"College stress, Money",Yes,Yes,"Feeling panic, fear and uneasiness",No,No,No
+3/20/2023 20:24:39,English,Female,Postgraduate,Day Scholar,Yes,others,Yes, Some kind of thinking,3,30 mins,3,Educational purpose,Sometimes tired,Money,No,No,No anxiety,No,Yes,No
+3/20/2023 20:24:40,Computer Science,Female,Postgraduate,Hostiler,No,3 - 4 am,Yes,Headache ,3,15 mins,8,Gaming apps,Sometimes tired,"Family, Studies, College stress, Money, ",Maybe,No,Nightmares,No,No,Yes
+3/20/2023 20:28:10,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,No,I will sleep on time,4,45 mins,5,Educational purpose,Sometimes tired,Money,No,No,No anxiety,No,No,Yes
+3/20/2023 20:35:24,English,Female,Postgraduate,Day Scholar,Yes,11 -12 pm,No,Household works,5,45 mins,2,Social Media,Yes,Family,Maybe,No,Chest pain,No,No,No
+3/20/2023 20:37:42,English,Female,Postgraduate,Day Scholar,Yes,12 - 1 am,Yes,No particular reason ,3,30 mins,5,Social Media,Sometimes tired,"Family, Studies, College stress",Maybe,No,Headache,No,No,No
+3/20/2023 20:38:30,English,Female,Postgraduate,Day Scholar,Yes,3 - 4 am,No,No I good sleep,4,30 mins,3,Educational purpose,Sometimes tired,Studies,No,Yes,Muscle tension,No,No,Yes
+3/20/2023 20:40:55,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,No,No reason ,1,45 mins,2,Educational purpose,No,Money,No,No,No anxiety,No,No,Yes
+3/20/2023 20:41:49,English,Female,Postgraduate,Day Scholar,No,11 -12 pm,Yes,Because of some significant study works,3,30 mins,4,Social Media,Yes,Family,No,Yes,Headache,No,No,No
+3/20/2023 20:53:43,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Studying ,3,30 mins,5,Educational purpose,Sometimes tired,Money,No,No,Headache,Yes,No,Yes
+3/20/2023 21:05:24,Data Science,Female,Postgraduate,Hostiler,Yes,12 - 1 am,Yes,Study purpose ,3,10 mins,4,Social Media,Sometimes tired,"College stress, Money",No,No,No anxiety,No,No,Yes
+3/20/2023 21:06:37,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,No,Nothing ,4,30 mins,2,Educational purpose,Sometimes tired,Health issues ,Maybe,Yes,Headache,No,No,Yes
+3/20/2023 21:10:01,Data Science,Male,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,No reasons ,3,30 mins,3,Social Media,Sometimes tired,Money,No,No,No anxiety,No,No,Yes
+3/20/2023 21:19:15,English,Female,Undergraduate,Day Scholar,Yes,9 - 10 pm,No,Very busy ,5,45 mins,1,Educational purpose,Sometimes tired,Studies,No,No,Sweating,No,No,Yes
+3/20/2023 21:25:23,Data Science,Male,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes, social media ,4,30 mins,5,Educational purpose,Yes,College stress,No,No,No anxiety,No,No,Yes
+3/20/2023 21:25:35,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Usual work,4,30 mins,3,Social Media,Sometimes tired,No problem,No,Yes,No problem,No,No,Yes
+3/20/2023 21:31:24,Computer Science,Male,Postgraduate,Hostiler,Yes,10 - 11 pm,Yes,Nothing,4,30 mins,4,Social Media,Sometimes tired,"Family, Money",Maybe,No,Muscle tension,No,No,Yes
+3/20/2023 21:36:29,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,No,Nothing,5,45 mins,2,Social Media,No,Money,No,Yes,No anxiety,No,No,Yes
+3/20/2023 21:44:46,English,Female,Postgraduate,Day Scholar,No,others,Yes,Stress ,3,45 mins,6,Social Media,Sometimes tired,"Family, College stress",No,No,No anxiety,No,No,Yes
+3/20/2023 21:59:28,Data Science,Female,Postgraduate,Hostiler,Yes,others,Yes,I often sleep on time. But sometimes it takes time.,3,15 mins,4,Social Media,Sometimes tired,College stress,Maybe,Yes,Sweating,No,No,Yes
+3/20/2023 22:25:43,Computer Science,Male,Undergraduate,Hostiler,Yes,12 - 1 am,Yes,Work and pressure ,2,10 mins,1,Educational purpose,Sometimes tired,"Studies, College stress",No,No,No anxiety,No,No,Yes
+3/20/2023 22:48:05,Data Science,Male,Undergraduate,Day Scholar,No,12 - 1 am,Yes,I don't know ,3,30 mins,12,Social Media,Sometimes tired,Money,No,No,No anxiety,No,No,No
+3/20/2023 23:16:21,Data Science,Male,Postgraduate,Hostiler,Yes,11 -12 pm,Yes,Studying,4,5 mins,4,Social Media,Sometimes tired,"Family, Relationship, Studies, College stress, Money",No,No,Headache,No,No,Yes
+3/21/2023 6:53:58,Economics,Male,Postgraduate,Day Scholar,No,11 -12 pm,Yes,Didn't sleep come crt time,4,10 mins,8,Social Media,Sometimes tired,"Family, Relationship, College stress, Money",Maybe,Yes,"Feeling panic, fear and uneasiness",No,No,Yes
+3/21/2023 7:24:41,Social Work,Female,Postgraduate,Hostiler,Yes,11 -12 pm,Yes,Playing with mobile phone,3,30 mins,4,Social Media,Sometimes tired,"Studies, Money",Maybe,No,Headache,No,No,No
+3/21/2023 8:33:51,Social Work,Female,Postgraduate,Hostiler,No,12 - 1 am,Yes,I don't know,2,10 mins,3,Social Media,Sometimes tired,"College stress, Money",Yes,Yes,Headache,No,No,No
+3/21/2023 8:50:45,Social Work,Male,Postgraduate,Hostiler,No,2 - 3 am,No,Playing with friends,3,15 mins,10,Social Media,Yes,"Relationship, College stress, Money",No,Yes,Headache,No,No,Yes
+3/21/2023 8:52:25,Social Work,Female,Postgraduate,Day Scholar,Yes,12 - 1 am,Yes,I mostly do my bending work in the night and study,3,30 mins,3,Mixed togethet ,Sometimes tired,"College stress, ",Yes,Yes,"Almost all except headache,flashbacks, night mares ",No,No,Yes
+3/21/2023 8:54:37,Social Work,Female,Postgraduate,Day Scholar,Yes,12 - 1 am,Yes,Practicesd ,3,30 mins,3,Social Media,Sometimes tired,College stress,Yes,No,Shivering,No,No,No
+3/21/2023 10:34:25,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Nothing ,4,45 mins,3,Social Media,Sometimes tired,Nothing ,Maybe,Yes,No anxiety,No,No,Yes
+3/21/2023 10:45:19,English,Female,Postgraduate,Day Scholar,Yes,others,Yes,Don't know,4,45 mins,2,Social Media,Sometimes tired,College stress,Maybe,Yes,Headache,No,No,Yes
+3/21/2023 14:39:02,Data Science,Male,Postgraduate,Hostiler,Yes,11 -12 pm,Yes,using mobile with useless thinks,4,15 mins,6,Social Media,Sometimes tired,College stress,No,No,no,No,No,Yes
+3/21/2023 15:52:03,Data Science,Male,Postgraduate,Day Scholar,Yes,12 - 1 am,Yes,thinking about future,3,15 mins,10,Social Media,Sometimes tired,Studies,No,No,No anxiety,No,No,Yes
+3/21/2023 19:40:57,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,Yes,No,3,30 mins,3,Educational purpose,Sometimes tired,Job,Maybe,No,Cold or sweaty hands,No,No,Yes
+3/23/2023 15:29:26,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,House work and college work,4,30 mins,4,Social Media,Sometimes tired,Studies,No,No,Headache,No,No,Yes
+3/23/2023 17:46:41,Computer Science,Male,Postgraduate,Hostiler,No,12 - 1 am,Yes,Watch movies ,2,15 mins,11,Social Media,Sometimes tired,Money,No,No,Stammering ,No,No,Yes
+3/23/2023 19:48:47,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,No,For habitual condition,2,30 mins,5,Educational purpose,Sometimes tired,Money,No,Yes,No anxiety,No,No,Yes
+3/23/2023 19:55:22,English,Female,Postgraduate,Day Scholar,Yes,9 - 10 pm,Yes,For habitual condition,3,30 mins,3,Educational purpose,Sometimes tired,Family,No,Yes,Diabetic ,No,No,Yes
+3/23/2023 20:40:45,Data Science,Male,Postgraduate,Hostiler,No,9 - 10 pm,Yes,Some personal problems ,5,5 mins,9,Social Media,Sometimes tired,"Studies, College stress, Money",No,Yes,Hair fall ,No,No,Yes
+3/23/2023 20:43:51,Data Science,Female,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,"Watching reels, Doing works related to studies, simply sitting with fully blank mind etc.",3,15 mins,5,Social Media,Yes,"Family, Studies, College stress, Money, Sometimes i Don't have any ideas what to do next, physical health. ",Yes,No,Sweating,No,No,No
+3/23/2023 20:51:25,Data Science,Female,Postgraduate,Hostiler,No,10 - 11 pm,No,Doing some work,3,15 mins,7,All,Yes,"Family, Studies, College stress, Money",Yes,Yes,Nightmares,Yes,No,No
+3/23/2023 21:09:31,English,Female,Postgraduate,Day Scholar,Yes,10 - 11 pm,Yes,Doing some work ,3,30 mins,6,Educational purpose,Sometimes tired,Money,Maybe,Yes,Headache,No,No,Yes
+3/24/2023 9:26:42,Data Science,Female,Postgraduate,Day Scholar,Yes,11 -12 pm,Yes,Watching mobile ,4,15 mins,4,Social Media,Yes,Relationship,Yes,Yes,Difficulty in breathing,No,Yes,Yes
