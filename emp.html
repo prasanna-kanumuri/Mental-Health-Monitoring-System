@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            height: 300px;
+            width: 400px;
+            background-color: rgb(239, 234, 235);
+            border-radius: 10px;
+        }
+
+        .question {
+            display: none;
+            margin-bottom: 15px;
+        }
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .options input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="question" id="question1">
+            <h2>Question 1: Are you self-employed or employed by a company?</h2>
+            <div class="options">
+                <label><input type="radio" name="q1" value="self-employed"> Self-employed</label>
+                <label><input type="radio" name="q1" value="employed"> Employed by a company</label>
+            </div>
+
+        </div>
+        <div class="question" id="question2">
+            <h2>Question 2: Do you have a family history of mental health issues?</h2>
+            <div class="options">
+                <label><input type="radio" name="q2" value="yes"> Yes</label>
+                <label><input type="radio" name="q2" value="no"> No</label>
+                <label><input type="radio" name="q2" value="not-sure"> Not sure</label>
+            </div>
+        </div>
+
+        <div class="question" id="question3">
+            <h2>Question 3: Are you currently receiving mental health treatment or counseling?</h2>
+            <div class="options">
+                <label><input type="radio" name="q3" value="yes"> Yes</label>
+                <label><input type="radio" name="q3" value="no"> No</label>
+                <label><input type="radio" name="q3" value="prefer-not-to-answer"> I prefer not to answer</label>
+            </div>
+        </div>
+
+        <div class="question" id="question4">
+            <h2>Question 4: Has your mental health ever interfered with your ability to work?</h2>
+            <div class="options">
+                <label><input type="radio" name="q4" value="yes"> Yes</label>
+                <label><input type="radio" name="q4" value="no"> No</label>
+                <label><input type="radio" name="q4" value="sometimes"> Sometimes</label>
+            </div>
+        </div>
+
+        <div class="question" id="question5">
+            <h2>Question 5: Do you work in a remote or office setting?</h2>
+            <div class="options">
+                <label><input type="radio" name="q5" value="remote"> Remote</label>
+                <label><input type="radio" name="q5" value="office"> Office</label>
+            </div>
+        </div>
+
+        <div class="question" id="question6">
+            <h2>Question 6: Is your company in the tech industry?</h2>
+            <div class="options">
+                <label><input type="radio" name="q6" value="yes"> Yes</label>
+                <label><input type="radio" name="q6" value="no"> No</label>
+            </div>
+        </div>
+
+        <div class="question" id="question7">
+            <h2>Question 7: Does your workplace offer mental health benefits or resources?</h2>
+            <div class="options">
+                <label><input type="radio" name="q7" value="yes"> Yes</label>
+                <label><input type="radio" name="q7" value="no"> No</label>
+                <label><input type="radio" name="q7" value="not-sure"> Not sure</label>
+            </div>
+        </div>
+
+        <div class="question" id="question8">
+            <h2>Question 8: Are you aware of any wellness programs related to mental health at your workplace?</h2>
+            <div class="options">
+                <label><input type="radio" name="q8" value="yes"> Yes</label>
+                <label><input type="radio" name="q8" value="no"> No</label>
+                <label><input type="radio" name="q8" value="dont-know"> I don't know</label>
+            </div>
+            <div class="question" id="question9">
+                <h2>Question 9: If you were experiencing mental health issues, would you feel comfortable seeking help from your employer?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="yes"> Yes</label>
+                    <label><input type="radio" name="q9" value="no"> No</label>
+                    <label><input type="radio" name="q9" value="not-sure"> I'm not sure</label>
+                </div>
+            </div>
+    
+            <div class="question" id="question10">
+                <h2>Question 10: Do you believe your employer provides anonymity and confidentiality when discussing mental health concerns?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="yes"> Yes</label>
+                    <label><input type="radio" name="q10" value="no"> No</label>
+                    <label><input type="radio" name="q10" value="not-sure"> I'm unsure</label>
+                </div>
+            </div>
+    
+            <div class="question" id="question11">
+                <h2>Question 11: Does your workplace offer leave options (e.g., mental health days) for mental health reasons?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="yes"> Yes</label>
+                    <label><input type="radio" name="q11" value="no"> No</label>
+                    <label><input type="radio" name="q11" value="dont-know"> I don't know</label>
+                </div>
+            </div>
+            <div class="question" id="question12">
+                <h2>Question 12: Have you ever experienced mental or physical health consequences due to workplace stress or conditions?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="yes"> Yes</label>
+                    <label><input type="radio" name="q12" value="no"> No</label>
+                    <label><input type="radio" name="q12" value="prefer-not-to-say"> I'd rather not say</label>
+                </div>
+            </div>
+    
+            <div class="question" id="question13">
+                <h2>Question 13: Do you feel comfortable discussing mental health with your coworkers?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="yes"> Yes</label>
+                    <label><input type="radio" name="q13" value="no"> No</label>
+                    <label><input type="radio" name="q13" value="sometimes"> Sometimes</label>
+                </div>
+            </div>
+    
+            <div class="question" id="question14">
+                <h2>Question 14: How comfortable are you discussing mental health with your supervisor or manager?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="very-comfortable"> Very comfortable</label>
+                    <label><input type="radio" name="q14" value="somewhat-comfortable"> Somewhat comfortable</label>
+                    <label><input type="radio" name="q14" value="not-comfortable"> Not comfortable at all</label>
+                </div>
+            </div>
+            <div class="question" id="question15">
+                <h2>Question 15: In your opinion, does your workplace prioritize mental health as much as physical health?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="yes"> Yes</label>
+                    <label><input type="radio" name="q15" value="no"> No</label>
+                    <label><input type="radio" name="q15" value="not-sure"> I'm not sure</label>
+                </div>
+            </div>
+    
+            <div class="question" id="question16">
+                <h2>Question 16: Have you noticed any consequences of not addressing mental health issues, both for yourself and in the workplace?</h2>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="yes"> Yes</label>
+                    <label><input type="radio" name="q16" value="no"> No</label>
+                    <label><input type="radio" name="q16" value="not-sure"> I'm unsure</label>
+                </div>
+            </div>
+        </div>
+        <!-- Include other questions similarly -->
+
+        <div class="btn-container">
+            <button class="btn" id="prevBtn" onclick="prevQuestion()">Previous</button>
+            <button class="btn" id="nextBtn" onclick="nextQuestion()">Next</button>
+        </div>
+   
+
+    <script>
+        let currentQuestion = 1;
+        const totalQuestions = 16;
+
+        function showQuestion(questionNumber) {
+            const questions = document.querySelectorAll('.question');
+            questions.forEach((question, index) => {
+                if (index === questionNumber - 1) {
+                    question.style.display = 'block';
+                } else {
+                    question.style.display = 'none';
+                }
+            });
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            if (questionNumber === 1) {
+                prevBtn.style.display = 'none';
+            } else {
+                prevBtn.style.display = 'inline-block';
+            }
+
+            if (questionNumber === totalQuestions) {
+                nextBtn.style.display = 'none';
+            } else {
+                nextBtn.style.display = 'inline-block';
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 1) {
+                currentQuestion--;
+                showQuestion(currentQuestion);
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < totalQuestions) {
+                currentQuestion++;
+                showQuestion(currentQuestion);
+            }
+        }
+
+        showQuestion(currentQuestion); 
+            // Rest of your JavaScript remains the same
+    </script>
+</body>
+</html>

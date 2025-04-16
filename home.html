@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+<div class="header">
+    <h1>Mental Health Awareness</h1>
+</div><br><br>
+<div class="home-content">
+    <p>Join us in raising awareness about mental health and well-being.</p>
+    <button class="btn" onclick="redirectToLogin('student')">Student<button>
+    <button class="btn" onclick="redirectToLogin('employee')">Employee</button>
+</div>
+<div class="info">
+    <h2>Why Mental Health Matters</h2>
+    <p>Mental health is an essential part of overall well-being. It affects how we think, feel, and act. Let's work together to eliminate the stigma surrounding mental health and provide support for those in need.</p>
+    <p class="quote">"Your mental health is just as important as your physical health."</p>
+</div>
+<script>
+    function redirectToLogin(userType) {
+        window.location.href = 'index.html?type=' + userType;
+    }
+</script>
+</body>
+</html>
